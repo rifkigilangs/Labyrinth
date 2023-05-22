@@ -129,6 +129,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bb41403794ec8ca40a35be07d7f591e0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  audioManager: {fileID: 0}
+  winClip: {fileID: 8300000, guid: 03a04bd9074fca04ca38a55bddb6a2c4, type: 3}
   customEvent: {fileID: 11400000, guid: be7fab2aaa6b6324bb25c5e1902def3d, type: 2}
 --- !u!65 &7726791735734342309
 BoxCollider:

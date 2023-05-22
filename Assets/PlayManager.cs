@@ -10,7 +10,7 @@ public class PlayManager : MonoBehaviour
     [SerializeField] CustomEvent gameOverEvent;
     [SerializeField] CustomEvent playerWinEvent;
 
-    int coin =  100; //TODO
+    // int coin =  100; //TODO
 
     private void OnEnable() 
     {
@@ -25,18 +25,18 @@ public class PlayManager : MonoBehaviour
     }
     public void GameOver()
     {
-        finishedText.text = "You Failed";
+        finishedText.text = "You Failed ";
         finishedCanvas.SetActive(true);
     }
 
     public void PlayerWin()
     {
-        finishedText.text = "You Win!\nScore " + GetScore();
+        finishedText.text = "You Win! ";
         finishedCanvas.SetActive(true);
     }
 
-    private int GetScore()
-    {
-        return coin * 10;
-    }
+    // private int GetScore()
+    // {
+    //     return coin * 10;
+    // }
 }

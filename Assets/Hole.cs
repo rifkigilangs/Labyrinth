@@ -5,7 +5,10 @@ using UnityEngine.Events;
 
 public class Hole : MonoBehaviour
 {
+    [SerializeField] AudioManager audioManager;
+    [SerializeField] AudioClip loseClip;
     [SerializeField] CustomEvent customEvent;
+    public UnityEvent AudioSource;
 
     private void OnCollisionEnter(Collision other) 
     {
@@ -17,6 +20,7 @@ public class Hole : MonoBehaviour
         if(other.CompareTag("Ball"))
         {
             customEvent.OnInvoked.Invoke();
+            audioManager.PlaySFX(loseClip);
         }
     }
 }
