@@ -397,7 +397,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 676, y: 351}
+  m_AnchoredPosition: {x: 676, y: 440}
   m_SizeDelta: {x: 300, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &837460755
@@ -577,6 +577,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 8700711005931651168, guid: 093b9519a3aed65409337a20747fc1e0, type: 3}
+      propertyPath: m_audioClip
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 8700711006175725457, guid: 093b9519a3aed65409337a20747fc1e0, type: 3}
       propertyPath: m_Name
       value: AudioManager
@@ -674,7 +678,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 674, y: 194}
+  m_AnchoredPosition: {x: 674, y: 283}
   m_SizeDelta: {x: 300, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1059473425
@@ -806,8 +810,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 720, y: 1089}
+  m_AnchoredPosition: {x: 0, y: -0.00067139}
+  m_SizeDelta: {x: 720, y: 1280}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1088651128
 MonoBehaviour:
@@ -883,7 +887,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 676, y: 508}
+  m_AnchoredPosition: {x: 676, y: 597}
   m_SizeDelta: {x: 300, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1326054511
@@ -1044,7 +1048,7 @@ MonoBehaviour:
   m_UiScaleMode: 1
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
-  m_ReferenceResolution: {x: 600, y: 1920}
+  m_ReferenceResolution: {x: 720, y: 1080}
   m_ScreenMatchMode: 0
   m_MatchWidthOrHeight: 0
   m_PhysicalUnit: 3
@@ -1384,7 +1388,7 @@ PrefabInstance:
       objectReference: {fileID: 1048810971}
     - target: {fileID: 37139750619254227, guid: b54b3e64bdb3afd46a62d2b602c4a260, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: -8.999985
+      value: -9
       objectReference: {fileID: 0}
     - target: {fileID: 37139750619254228, guid: b54b3e64bdb3afd46a62d2b602c4a260, type: 3}
       propertyPath: m_Sprite
@@ -1456,7 +1460,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 37139751280695369, guid: b54b3e64bdb3afd46a62d2b602c4a260, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 283
+      value: 278
       objectReference: {fileID: 0}
     - target: {fileID: 37139751280695371, guid: b54b3e64bdb3afd46a62d2b602c4a260, type: 3}
       propertyPath: m_Sprite

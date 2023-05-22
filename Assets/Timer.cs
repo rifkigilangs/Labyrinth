@@ -39,7 +39,6 @@ public class Timer : MonoBehaviour
             GameAktif = false;
         }
 
-
         SetText();
    }
 }
